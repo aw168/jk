@@ -16,7 +16,7 @@ const workerConfig = {
       id: 'google_monitor',
       name: '1',
       method: 'GET',
-      target: 'https://vwo50.club',
+      target: 'https://qq965868345.serv00.net',
         tooltip: 'This is a tooltip for this monitor',
   // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
   statusPageLink: 'https://example.com',
@@ -26,7 +26,7 @@ const workerConfig = {
       id: 'google_monitor',
       name: '2',
       method: 'GET',
-      target: 'https://u1s1.one',
+      target: 'https://cueiringhih.serv00.net/',
      tooltip: 'This is a tooltip for this monitor',
   // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
   statusPageLink: 'https://example.com',
