@@ -240,10 +240,10 @@ const workerConfig = {
       id: 'google_monitor',
       name: '2',
       method: 'GET',
-      target: 'https://cueiringhih.serv00.net/',
+      target: 'https://svqgvbzwe.serv00.net/',
      tooltip: 'This is a tooltip for this monitor',
   // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-  statusPageLink: 'https://cueiringhih.serv00.net/',
+  statusPageLink: 'https://svqgvbzwe.serv00.net/',
     },
 
     {
