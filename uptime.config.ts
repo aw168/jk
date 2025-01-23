@@ -19,7 +19,7 @@ const workerConfig = {
       target: 'https://qq965868345.serv00.net',
         tooltip: 'This is a tooltip for this monitor',
   // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-  statusPageLink: 'https://example.com',
+  statusPageLink: 'https://qq965868345.serv00.net',
     },
 
  {
@@ -29,7 +29,7 @@ const workerConfig = {
       target: 'https://cueiringhih.serv00.net/',
      tooltip: 'This is a tooltip for this monitor',
   // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
-  statusPageLink: 'https://example.com',
+  statusPageLink: 'https://cueiringhih.serv00.net/',
     },
 
     {
