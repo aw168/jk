@@ -4,8 +4,7 @@ const pageConfig = {
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
     { link: 'https://awbk.us.kg', label: '博客' },
-    { link: 'https://iaw.us.kg', label: '个人主页' },
-    { link: 'https://dh.iaw.us.kg', label: '导航', highlight: true },
+    { link: 'https://iaw.us.kg', label: '个人主页', highlight: true },
   ],
 }
 
@@ -41,6 +40,7 @@ const workerConfig = {
   // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
   statusPageLink: 'https://example.com',
     },
+    
   ],
   notification: {
   appriseApiServer: "https://jkjk-j6ihvv7k7-aw168s-projects.vercel.app/notify",
@@ -52,6 +52,7 @@ const workerConfig = {
   // if not specified, notification will be sent immediately
   gracePeriod: 5,
 },
+  
   callbacks: {
     onStatusChange: async (
       env: any,
