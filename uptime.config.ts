@@ -3,9 +3,9 @@ const pageConfig = {
   title: "hxd Status Page",
   // Links shown at the header of your status page, could set `highlight` to `true`
   links: [
-    { link: 'https://vwo50.club', label: 'Blog' },
-    { link: 'https://u1s1.one', label: 'Nav Site' },
-    { link: 'https://md.u1s1.one/', label: 'markdown', highlight: true },
+    { link: 'https://awbk.us.kg', label: '博客' },
+    { link: 'https://iaw.us.kg', label: '个人主页' },
+    { link: 'https://dh.iaw.us.kg', label: '导航', highlight: true },
   ],
 }
 
@@ -14,7 +14,7 @@ const workerConfig = {
   monitors: [
     {
       id: 'google_monitor',
-      name: 'My Blog Monitor',
+      name: '1',
       method: 'GET',
       target: 'https://vwo50.club',
         tooltip: 'This is a tooltip for this monitor',
@@ -24,7 +24,7 @@ const workerConfig = {
 
  {
       id: 'google_monitor',
-      name: 'My Nav Monitor',
+      name: '2',
       method: 'GET',
       target: 'https://u1s1.one',
      tooltip: 'This is a tooltip for this monitor',
@@ -42,6 +42,16 @@ const workerConfig = {
   statusPageLink: 'https://example.com',
     },
   ],
+  notification: {
+  appriseApiServer: "https://jkjk-j6ihvv7k7-aw168s-projects.vercel.app/notify",
+  recipientUrl: "tgram://8192371314:AAEA7iBRucgoYJD-hZ5VYGN9gYBNSws0dps/7753605277",
+  // [Optional] timezone used in notification messages, default to "Etc/GMT"
+  timeZone: "Asia/Shanghai",
+  // [Optional] grace period in minutes before sending a notification
+  // notification will be sent only if the monitor is down for N continuous checks after the initial failure
+  // if not specified, notification will be sent immediately
+  gracePeriod: 5,
+},
   callbacks: {
     onStatusChange: async (
       env: any,
