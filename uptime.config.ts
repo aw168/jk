@@ -31,6 +31,16 @@ const workerConfig = {
   statusPageLink: 'https://cueiringhih.serv00.net/',
     },
 
+     {
+      id: 'google_monitor',
+      name: '2',
+      method: 'GET',
+      target: 'https://cueiringhih.serv00.net/',
+     tooltip: 'This is a tooltip for this monitor',
+  // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
+  statusPageLink: 'https://cueiringhih.serv00.net/',
+    },
+
     {
       id: 'ssh_monitor',
       name: 'Oracle Monitor',
@@ -40,7 +50,7 @@ const workerConfig = {
   // [OPTIONAL] `statusPageLink` is ONLY used for clickable link at status page
   statusPageLink: 'https://example.com',
     },
-    
+
   ],
   notification: {
   appriseApiServer: "https://jkjk-j6ihvv7k7-aw168s-projects.vercel.app/notify",
@@ -52,7 +62,7 @@ const workerConfig = {
   // if not specified, notification will be sent immediately
   gracePeriod: 5,
 },
-  
+
   callbacks: {
     onStatusChange: async (
       env: any,
