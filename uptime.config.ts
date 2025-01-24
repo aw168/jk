@@ -17,7 +17,7 @@ const workerConfig = {
   method: 'GET',
   target: 'https://yomyo.serv00.net',
   tooltip: 'This is a tooltip for this monitor',
-  statusPageLink: 'https://qq965868345.serv00.net',
+  statusPageLink: 'https://yomyo.serv00.net',
 },
 
 {
@@ -26,7 +26,7 @@ const workerConfig = {
   method: 'GET',
   target: 'https://yomyo.serv00.net/',
   tooltip: 'This is a tooltip for this monitor',
-  statusPageLink: 'https://cueiringhih.serv00.net/',
+  statusPageLink: 'https://yomyo.serv00.net/',
 },
 
 {
