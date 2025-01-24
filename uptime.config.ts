@@ -15,7 +15,7 @@ const workerConfig = {
   id: 'google_monitor',
   name: '1',
   method: 'GET',
-  target: 'https://qq965868345.serv00.net',
+  target: 'https://yomyo.serv00.net',
   tooltip: 'This is a tooltip for this monitor',
   statusPageLink: 'https://qq965868345.serv00.net',
 },
